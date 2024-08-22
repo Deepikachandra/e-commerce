@@ -1,0 +1,89 @@
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    padding-bottom:  1em;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .card:hover{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out 0s;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.25em;
+    margin-bottom: 8px;
+  }
+  
+  .card-description {
+    font-size: 1em;
+    margin-bottom: 16px;
+  }
+  
+  .card-price {
+    font-size: 1.25em;
+    margin-bottom: 16px;
+    color: #888;
+  }
+  
+  .card-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .card-button:hover {
+    background-color: #555;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+    gap: 1em;
+  }
+
+  .category-card-container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    gap:20px;
+  }
+
+  .category-card{
+    max-width: 15rem;
+    margin: 1rem;
+    font-size: x-large;
+  }
+
+  .category-card img{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+  }
+
+  .category-card img:hover{
+    cursor: pointer;
+    content: url("https://www.tarinika.in/cdn/shop/files/UntitledSession4526_2048x.jpg?v=1692291834");
+    transition: content 10s ease-in-out 10s;
+  }

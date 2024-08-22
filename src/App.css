@@ -1,38 +1,57 @@
-.App {
+*{
+  margin: 0px;
+  padding:0px;
+}
+
+.main-body{
+  padding-top: 120px;
+}
+
+.main-container{
+  margin-top: 4rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.shopByCategory-heading{
+  font-size: xx-large;
+  color: darkred;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .nav ul li .dropbtn {
+  background-color: #f8f9fa;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #333;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav ul li .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f9fa;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 160px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav ul li .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav ul li .dropdown-content a:hover {
+  background-color: #ddd;
 }
+
+.nav ul li .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav ul li .dropdown-content {
+  display: ${dropdownOpen ? 'block' : 'none'};
+} */
+
+
+
